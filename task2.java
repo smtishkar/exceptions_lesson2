@@ -10,16 +10,17 @@ public class task2 {
      * }
      */
     public static void main(String[] args) {
-        int [] intArray = new int[10];      
+        // int [] intArray = new int[10];
         // int [] intArray = new int[]{1,2,3,4,5,6};
-        // int [] intArray = new int[]{1,2,3,4,5,6,7,8,9,10};
-        int d = 1;
+        int[] intArray = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int d = 45;
         int numerator;
-        
+
         try {
             numerator = intArray[8];
             if (d > 0) {
-                double catchedRes1 = numerator / d;
+                double catchedRes1 = (double) numerator / d;
+
                 System.out.println("catchedRes1 = " + catchedRes1);
             } else {
                 System.out.println("Знаменатель не может быть равен или меньше 0");
